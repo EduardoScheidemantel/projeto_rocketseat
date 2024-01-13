@@ -64,7 +64,6 @@ body * {
   margin: 4px auto;
 }
 
-
 #switch button {
   height: 32px;
   width: 32px;
@@ -83,7 +82,6 @@ body * {
   right: 0;
   left: initial;
 }
-
 
 #switch span {
   display: block;
@@ -145,4 +143,14 @@ ul li a:hover {
 footer {
   padding: 24px 0;
   text-align: center;
+}
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
